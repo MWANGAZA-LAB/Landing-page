@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+.hero {
+  background-color: #1f2937;
+  color: white;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f9faf8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #1f2937;
+}
+
+.feature-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  max-width: 150px;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.feature p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #4b5563;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 80px 20px;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.cta {
+  background-color: #3882f6;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-content button {
+  padding: 12px 30px;
+  font-size: 18px;
+  background-color: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
